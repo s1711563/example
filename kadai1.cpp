@@ -13,9 +13,9 @@ int main()
   person emails[3];
 
   for(int i=0; i<3; i++){
-    cout << i + 1 << "番目の名前は？";
+    cout << i + 1 << "番目の名前を書いてください";
     cin >> friends[i].name;
-    cout << i + 1 << "番目のメールアドレスは？";
+    cout << i + 1 << "番目のメールアドレスを書いてください";
     cin >> emails[i].email;
   }
 
